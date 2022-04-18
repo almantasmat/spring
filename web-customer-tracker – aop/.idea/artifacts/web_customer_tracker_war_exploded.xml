@@ -1,0 +1,63 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/byte-buddy-1.12.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/c3p0-0.9.5.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/classmate-1.5.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/FastInfoset-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/hibernate-c3p0-5.6.5.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/hibernate-commons-annotations-5.1.2.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/hibernate-core-5.6.5.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/hibernate-validator-6.2.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/hibernate-validator-annotation-processor-7.0.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/istack-commons-runtime-3.0.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/jandex-2.4.2.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/javax.activation-api-1.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/javax.el-3.0.1-b12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/javax.persistence-api-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/javax.servlet.jsp.jstl-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/javax.servlet.jsp.jstl-api-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/jaxb-api-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/jaxb-runtime-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/jboss-logging-3.4.3.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/mchange-commons-java-0.2.19.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/mysql-connector-java-8.0.28.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-aop-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-aspects-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-beans-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-context-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-context-indexer-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-context-support-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-core-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-expression-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-instrument-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-jcl-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-jdbc-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-jms-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-messaging-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-orm-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-oxm-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-test-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-tx-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-web-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-webflux-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-webmvc-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/spring-websocket-5.2.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/stax-ex-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/txw2-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/validation-api-2.0.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/webapp/WEB-INF/libs/aspectjweaver-1.8.1.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+    </root>
+  </artifact>
+</component>

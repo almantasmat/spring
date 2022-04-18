@@ -1,0 +1,509 @@
+I. INTRO
+	1 - Introduction
+	2 - Practice Activities - Overview
+	3 - Why Spring - part 1
+	4 - Why Spring - part 2
+	5 - Spring 5 Update
+	6 - Spring Core Framework - Part 1
+	7 - Spring Core Framework - Part 2
+	8 - Spring Platform
+	9 - Dev Environment Overview
+	10 - Installing Tomcat
+	11 - Installing Eclipse
+	12 - Connecting Tomcat to Eclipse
+	13 - Downloading Spring 5 JAR Files - Overview
+	14 - Downloading Spring 5 JAR files - Installation
+	
+II. IOC
+	15 - What is Inversion of Control
+	16 - Code Demo - Rough Prototype Part 1
+	17 - Code Demo - Rough Prototype Part 2
+	18 - Spring Inversion of Control - Overview
+	19 - Spring Inversion of Control - Write Some Code - Part 1
+	20 - Spring Inversion of Control - Write Some Code - Part 2
+	21 - Spring Dependency Injection - Overview
+	22 - Spring Dependency Injection - Behind the Scenes
+	23 - Spring Dependency Injection - Write Some Code - Part 1
+	24 - Spring Dependency Injection - Write Some Code - Part 2
+	25 - Spring Dependency Injection - Write Some Code - Part 3
+	26 - Setter Injection - Overview
+	27 - Setter Injection - Write Some Code - Part 1
+	28 - Setter Injection - Write Some Code - Part 2
+	29 - Injecting Literal Values - Overview
+	30 - Injecting Literal Values - Write Some Code
+	31 - Injecting Values from a Properties File - Overview
+	32 - Injecting Values from a Properties File - Write Some Code
+	33 - Bean Scopes - Overview
+	34 - Bean Scopes - Write Some Code - Part 1
+	35 - Bean Scopes - Write Some Code - Part 2
+	36 - Bean Lifecycle - Overview
+	37 - Bean Lifecycle - Write Some Code
+	38 - Annotations Overview - Component Scanning
+	39 - Annotations Project Setup
+	40 - Explicit Component Names - Write Some Code - Part 1
+	41 - Explicit Component Names - Write Some Code - Part 2
+	42 - Default Component Names - Overview
+	43 - Default Component Names - Write Some Code
+	44 - Constructor Injection - Overview
+	45 - Constructor Injection - Write Some Code - Part 1
+	46 - Constructor Injection - Write Some Code - Part 2
+	47 - Setter Injection - Overview
+	48 - Setter Injection - Write Some Code
+	49 - Method Injection
+	50 - Field Injection - Overview
+	51 - Field Injection - Write Some Code
+	52 - Which Injection Type Should You Use
+	53 - Qualifiers for Dependency Injection - Overview
+	54 - Qualifiers for Dependency Injection - Write Some Code - Part 1
+	55 - Qualifiers for Dependency Injection - Write Some Code - Part 2
+	56 - @Scope Annotation - Overview
+	57 - @Scope Annotation - Write Some Code
+	58 - Bean Lifecycle Method Annotations - Overview
+	59 - Bean Lifecycle Method Annotations - Write Some Code
+	60 - Spring Configuration with Java Code (no xml) - Overview
+	61 - Spring Configuration with Java Code (no xml) - Write Some Code
+	62 - Defining Spring Beans with Java Code (no xml) - Overview
+	63 - Defining Spring Beans with Java Code (no xml) - Write Some Code - Part 1
+	64 - Defining Spring Beans with Java Code (no xml) - Write Some Code - Part 2
+	65 - Injecting Values from Properties File - Overview
+	66 - Injecting Values from Properties File - Write Some Code - Part 1
+	67 - Injecting Values from Properties File - Write Some Code - Part 2
+	
+III. MVC
+	68 - Spring MVC Overview
+	69 - Spring MVC - Behind the Scenes
+	70 - Development Environment Checkpoint
+	71 - Spring MVC Configuration - Overview
+	72 - Spring MVC Configuration - JAR Files
+	73 - Spring MVC Configuration - Config Files
+	74 - Creating a Spring Home Controller and View - Overview
+	75 - Creating a Spring Home Controller and View - Write Some Code - Part 1
+	76 - Creating a Spring Home Controller and View - Write Some Code - Part 2
+	77 - Reading HTML Form Data - Overview
+	78 - Reading HTML Form Data - Write Some Code - Part 1
+	79 - Reading HTML Form Data - Write Some Code - Part 2
+	80 - Reading HTML Form Data - Write Some Code - Part 3
+	81 - Adding Data to the Spring Model - Overview
+	82 - Adding Data to the Spring Model - Write Some Code - Part 1
+	83 - Adding Data to the Spring Model - Write Some Code - Part 2
+	84 - Binding Request Params - Overview
+	85 - Binding Request Params - Write Some Code
+	86 - Controller Level Request Mapping - Overview
+	87 - Controller Level Request Mapping - Write Some Code - Part 1
+	88 - Controller Level Request Mapping - Write Some Code - Part 2
+	89 - Spring MVC Form Tags Overview
+	90 - Text Fields - Overview
+	91 - Text Fields - Write Some Code - Part 1
+	92 - Text Fields - Write Some Code - Part 2
+	93 - Text Fields - Write Some Code - Part 3
+	94 - Drop-Down Lists - Overview
+	95 - Drop-Down Lists - Write Some Code - Part 1
+	96 - Drop-Down Lists - Write Some Code - Part 2
+	97 - Radio Buttons - Overview
+	98 - Radio Buttons - Write Some Code
+	99 - Checkboxes - Overview
+	100 - Checkboxes - Write Some Code - Part 1
+	101 - Checkboxes - Write Some Code - Part 2
+	
+IV. VALIDATION
+	102 - Spring MVC Form Validation Overview
+	103 - Setting Up Dev Environment for Form Validation
+	104 - Installing Validation Files
+	105 - Checking for Required Fields Overview
+	106 - Add Validation Rule to Customer Class
+	107 - Display Validation Error Messages on HTML Form
+	108 - Perform Validation in Controller Class - Part 1
+	109 - Perform Validation in Controller Class - Part 2
+	110 - Update Confirmation Page
+	111 - Test the Validation Rule for Required Fields
+	112 - Add Pre-processing Code with @InitBinder - Overview
+	113 - Add Pre-processing Code with @InitBinder - Write Some Code
+	114 - Validating a Number Range - Overview
+	115 - Validating a Number Range - Write Some Code
+	116 - Applying Regular Expressions - Overview
+	117 - Applying Regular Expressions - Write Some Code
+	118 - How to make Integer Field Required freePasses
+	119 - How to Handle String input for Integer Fields - Custom Message
+	120 - How to Handle String input for Integer Fields - Configure Resource Bundle
+	121 - How to Handle String input for Integer Fields - Deep Dive
+	122 - Custom Form Validation - Overview - Part 1
+	123 - Custom Form Validation - Overview - Part 2
+	124 - Creating a Custom Java Annotation - Part 1
+	125 - Creating a Custom Java Annotation - Part 2
+	126 - Developing the ConstraintValidator
+	127 - Adding Validation Rule to the Entity and Form
+	128 - Testing the Custom Validation Rule
+	
+V. DB
+	129 - Hibernate Overview
+	130 - Hibernate and JDBC
+	131 - Hibernate Development Environment Overview
+	132 - Installing MySQL on MS Windows
+	133 - Setting Up Database Table
+	134 - Setting up Hibernate in Eclipse
+	135 - Testing Your JDBC Connection
+	136 - Hibernate Development Process Overview
+	137 - Creating the Hibernate Configuration File
+	138 - Hibernate Annotations - Part 1
+	139 - Hibernate Annotations - Part 2
+	140 - Creating and Saving Java Objects - Part 1
+	141 - Creating and Saving Java Objects - Part 2
+	142 - Primary Keys - Overview
+	143 - Primary Keys - Write Some Code
+	144 - Primary Keys - Changing the Starting Index
+	145 - Reading Objects with Hibernate
+	146 - Querying Objects with Hibernate - Overview
+	147 - Querying Objects with Hibernate - Write Some Code - Part 1
+	148 - Querying Objects with Hibernate - Write Some Code - Part 2
+	149 - Updating Objects with Hibernate - Overview
+	150 - Updating Objects with Hibernate - Write Some Code
+	151 - Deleting Objects with Hibernate - Overview
+	152 - Deleting Objects with Hibernate - Write Some Code
+	153 - Advanced Mappings Overview
+	154 - Database Concepts
+	155 - @OneToOne - Overview - Part 1
+	156 - @OneToOne - Overview - Part 2
+	157 - @OneToOne - Overview - Part 3
+	158 - @OneToOne - Run Database Scripts
+	159 - @OneToOne - Write Some Code - Prep Work
+	160 - OneToOne - Write Some Code - Create Instructor Detail class
+	161 - @OneToOne - Write Some Code - Create Instructor class
+	162 - @OneToOne - Write Some Code - Build Main App - Part 1
+	163 - @OneToOne - Write Some Code - Build Main App - Part 2
+	164 - @OneToOne - Delete an Entity
+	165 - @OneToOne-Bi-Directional Overview
+	166 - @OneToOne-Bi-Directional - Create Relationship
+	167 - @OneToOne-Bi-Directional - Develop Main App
+	168 - @OneToOne - Refactoring and Exception Handling
+	169 - @OneToOne - Bi-Directional - Cascade Delete
+	170 - @OneToOne - Bi-Directional - Delete Only Instructor Detail - Part 1
+	171 - @OneToOne - Bi-Directional - Delete Only Instructor Detail - Part 2
+	172 - @OneToMany - Bi-Directional Overview - Part 1
+	173 - @OneToMany - Bi-Directional Overview - Part 2
+	174 - @OneToMany - Bi-Directional - Database Prep Work
+	175 - @OneToMany - Bi-Directional - Create Course Mapping
+	176 - @OneToMany - Bi-Directional - Define Course Relationship
+	177 - @OneToMany - Bi-Directional - Update Instructor
+	178 - @OneToMany - Bi-Directional - Add Instructor to Database
+	179 - @OneToMany - Bi-Directional - Create Courses for Instructor
+	180 - @OneToMany - Bi-Directional - Retrieve Instructor Courses
+	181 - @OneToMany - Bi-Directional - Delete a Course
+	182 - Eager vs Lazy Loading - Overview - Part 1
+	183 - Eager vs Lazy Loading - Overview - Part 2
+	184 - Eager vs Lazy Loading - Coding - Eager
+	185 - Eager vs Lazy Loading - Coding - Lazy
+	186 - Eager vs Lazy Loading - Coding - Closing the Session
+	187 - Eager vs Lazy Loading - Coding - Resolve Lazy Loading Issue
+	188 - Eager vs Lazy Loading - Coding - HQL JOIN FETCH
+	189 - @OneToMany - Uni-Directional - Overview - Part 1
+	190 - @OneToMany - Uni-Directional - Overview - Part 2
+	191 - @OneToMany - Uni-Directional - Set up database tables
+	192 - @OneToMany - Uni-Directional - Create Review Class
+	193 - @OneToMany - Uni-Directional - Configure Fetch Type
+	194 - @OneToMany - Uni-Directional - Create Course Reviews
+	195 - @OneToMany - Uni-Directional - Get Course Reviews
+	196 - @OneToMany - Uni-Directional - Delete Course Reviews
+	197 - @ManyToMany - Overview - Part 1
+	198 - @ManyToMany - Overview - Part 2
+	199 - @ManyToMany - Set up database tables
+	200 - @ManyToMany - Update Course class
+	201 - @ManyToMany - Configure Course for many-to-many
+	202 - @ManyTo Many - Configure Student for many-to-many
+	203 - @ManyTo Many - Create a Main App
+	204 - @ManyToMany - Review app output
+	205 - @Many ToMany - Add more courses for a student
+	206 - @ManyToMany - Verify Data in Join Table
+	207 - @ManyToMany - Get Courses for Student
+	208 - @ManyToMany - Delete a Course
+	209 - @ManyToMany - Delete a Student
+	210 - Project Overview and Demo
+	211 - Set up Sample Data for Database
+	212 - Test Database Connection - Part 1
+	213 - Test Database Connection - Part 2
+	214 - Set Up Dev Environment - Part 1
+	215 - Set Up Dev Environment - Part 2
+	216 - Set Up Dev Environment - Part 3
+	217 - Test Spring MVC Controller - Part 1
+	218 - Test Spring MVC Controller - Part 2
+	219 - List Customers - Overview
+	220 - List Customers - Overview of Development Process
+	221 - List Customers - Creating Hibernate Entity - Part 1
+	222 - List Customers - Creating Hibernate Entity - Part 2
+	223 - List Customers - Developing Hibernate DAO - Overview - Part 1
+	224 - List Customers - Developing Hibernate DAO - Overview - Part 2
+	225 - List Customers - Developing Hibernate DAO - Write Some Code - Part 1
+	226 - List Customers. Developing Hibernate DAO - Write Some Code - Part 2
+	227 - List Customers - Injecting DAO into Controller
+	228 - List Customers - Developing JSP View Page
+	229 - Making it Pretty with CSS - Overview
+	230 - Making it Pretty with CSS - Write Some Code - Part 1
+	231 - Making it Pretty with CSS - Write Some Code - Part 2
+	232 - Adding a Welcome File
+	233 - Refactor @GetMapping and @Post Mapping - Overview
+	234 - Refactor @GetMapping and @PostMapping - Write Some Code
+	235 - Refactor Add a Service Layer - Overview
+	236 - Refactor Add a Service Layer - Write Some Code - Part 1
+	237 - Refactor Add a Service Layer - Write Some Code - Part 2
+	238 - Add Customer - Overview
+	239 - Add Customer - Setting up the Add Button - Part 1
+	240 - Add Customer - Setting up the Add Button - Part 2
+	241 - Add Customer - Creating the HTML Form - Part 1
+	242 - Add Customer - Creating the HTML Form - Part 2
+	243 - Add Customer - Creating the HTML Form - Part 3
+	244 - Add Customer - Save to Database - Part 1
+	245 - Add Customer - Save to Database - Part 2
+	246 - Sort Customer Data
+	247 - Update Customer - Overview
+	248 - Update Customer - Creating Update Link
+	249 - Update Customer - Prepopulating the Form - Part 1
+	250 - Update Customer - Prepopulating the Form - Part 2
+	251 - Update Customer - Prepopulating the Form - Part 3
+	252 - Update Customer - Save Customer to Database - Part 1
+	253 - Update Customer - Save Customer to Database - Part 2
+	254 - Delete Customer - Overview
+	255 - Delete Customer - Creating Delete Link - Part 1
+	256 - Delete Customer - Creating Delete Link - Part 2
+	257 - Delete Customer - Delete from Database - Part 1
+	258 - Delete Customer - Delete from Database - Part 2
+	259 - Delete Customer - Delete from Database - Part 3
+	
+VI. AOP
+	260 - AOP - The Business Problem
+	261 - AOP Solution and AOP Use Cases
+	262 - Comparing Spring AOP and Aspect
+	263 - AOP @Before Advice Overview
+	264 - AOP AOP Project Setup
+	265 - AOP @Before Advice - Write Some Code
+	266 - AOP @Before Advice - Add and Test AOP Aspect
+	267 - AOP - Pointcut Expressions Overview
+	268 - AOP - Pointcut Expressions - Match any addAccount Method - Part 2
+	269 - AOP - Pointcut Expressions - Match only DAO addAccount - Match any add Method
+	270 - AOP - Pointcut Expressions - Match any Return Type
+	271 - AOP Pointcut Expressions - Match Method Parameter Types Overview
+	272 - AOP Pointcut Expressions - Match Method with Account and more Params
+	273 - AOP Pointcut Expressions - Match Method Any Params - Match Method in a Package
+	274 - AOP Pointcut Declarations - Overview
+	275 - AOP Pointcut Declarations - Write Some Code
+	276 - AOP Combining Pointcuts - Overview
+	277 - AOP Combining Pointcuts - Write Some Code - Part 1
+	278 - AOP Combining Pointcuts - Write Some Code - Part 2
+	279 - AOP Ordering Aspects - Overview
+	280 - AOP Ordering Aspects - Write Some Code - Part 1
+	281 - AOP Ordering Aspects - Write Some Code - Part 2
+	282 - AOP Read Method Arguments with JoinPoints - Overview
+	283 - AOP Read Method Arguments with JoinPoints - Write Some Code
+	284 - AOP @AfterReturning Overview
+	285 - AOP @AfterReturning - Write Some Code - Part 1
+	286 - AOP @AfterReturning - Write Some Code - Part 2
+	287 - AOP @AfterReturning - Write Some Code - Part 2
+	288 - AOP @AfterReturning - Modifying Data - Write Some Code
+	289 - AOP @AfterThrowing
+	290 - AOP @AfterThrowing - Write Some Code
+	291 - AOP @After Overview
+	292 - AOP @After - Write Some Code
+	293 - AOP @Around Advice Overview
+	294 - AOP @Around - Write Some Code - Part 1
+	295 - AOP @Around - Write Some Code - Part 2
+	296 - AOP @Around Advice - Resolve Order Issue
+	297 - AOP @Around Advice - Handling Exceptions - Overview
+	298 - AOP @Around Advice - Handling Exceptions - Write Some Code
+	299 - AOP @Around Advice - Rethrowing Exceptions
+	300 - AOP AOP and Spring MVC App - Overview
+	301 - AOP AOP and Spring MVC App - Write Some Code - Create Aspect
+	302 - AOP AOP and Spring MVC App - Write Some Code - Add @Before Advice
+	303 - AOP AOP and Spring MVC App - Write Some Code - Add @AfterReturning Advice
+	
+VII. MAVEN
+	304 - Maven Overview - Part 1
+	305 - Maven Overview - Part 2
+	306 - Maven Key Concepts - POM file and Coordinates
+	307 - Maven - How to Find Dependencies
+	308 - Maven Archetypes
+	309 - Maven - Creating a Simple Project - Part 1
+	310 - Maven - Creating a Simple Project - Part 2
+	311 - Maven - Creating a Web App Project
+	312 - Maven - Repositories Overview
+	313 - Maven - Local Repository
+	314 - Maven - Central Repository (remote)
+	315 - Maven - Additional Repositories Overview
+	316 - Maven - Additional Repositories Demo
+	317 - Maven - Private Repositories
+	
+VIII. SECURITY
+	318 - Spring Security - Overview
+	319 - Spring Security - Demo
+	320 - Spring Security - All Java Configuration - Part 1
+	321 - Spring Security - All Java Configuration - Part 2
+	322 - Spring Security - Project Downloads and Setup
+	323 - Spring Security - Maven Configuration
+	324 - Spring Security - Create Spring Java Config class
+	325 - Spring Security - Create Spring Initializer class
+	326 - Spring Security - Create Controller and View
+	327 - Spring Security - Run the App
+	328 - Spring Security - Add Spring Security Maven Dependencies
+	329 - Spring Security - Add Spring Security Maven Dependencies - Demo
+	330 - Spring Security - Basic Security (Users, Passwords and Roles)
+	331 - Spring Security - Create Security Initializer
+	332 - Spring Security - Create Security Config
+	333 - Spring Security - Rename Context Roots
+	334 - Spring Security - Dev and Testing with New Private Window
+	335 - Spring Security - Custom Login Form Overview - Part 1
+	336 - Spring Security - Custom Login Form Overview - Part 2
+	337 - Spring Security - Spring Config for Custom Login Form
+	338 - Spring Security - Create Request Mapping for Login Form
+	339 - Spring Security - Building Custom Login Form
+	340 - Spring Security - Testing Custom Login Form
+	341 - Spring Security - Adding Login Error Message - Overview
+	342 - Spring Security - Adding Login Error Message - Coding
+	343 - Spring Security - Bootstrap CSS Login Form (1)
+	344 - Spring Security - Bootstrap CSS Login Form - Adding Form
+	345 - Spring Security - Bootstrap CSS Login Form - Customizing Form
+	346 - Spring Security - Bootstrap CSS Login Form - Testing
+	347 - Spring Security - Logout Overview
+	348 - Spring Security - Logout Configuration
+	349 - Spring Security - Customizing Logout Message
+	350 - Spring Security - Cross Site Request Forgery (CSRF)
+	351 - Spring Security - Viewing CSRF Tokens
+	352 - Spring Security - Manually Adding CSRF Tokens
+	353 - Spring Security - Displaying User ID and Roles - Overview
+	354 - Spring Security - Displaying User ID and Roles - Write Some Code
+	355 - Spring Security - Displaying User ID and Roles - Test the App
+	356 - Spring Security - Restrict Access - Overview
+	357 - Spring Security - Restrict Access - Update Home Page
+	358 - Spring Security - Restrict Access - Create Controller and Views
+	359 - Spring Security - Restrict Access - Security Configuration
+	360 - Spring Security - Restrict Access - Test Admin Access
+	361 - Spring Security - Create a Custom Access Denied Page - Overview
+	362 - Spring Security - Create a Custom Access Denied Page - Configuration
+	363 - Spring Security - Create a Custom Access Denied Page - Coding
+	364 - Spring Security - Display Content based on Roles - Overview
+	365 - Spring Security - Display Content based on Roles - Write Some Code
+	366 - Spring Security - Display Content based on Roles - Testing
+	367 - Spring Security JDBC - Overview - Defining Database Schema
+	368 - Spring Security JDBC - Overview - DataSource Configuration
+	369 - Spring Security JDBC - Overview - Add JDBC Authentication
+	370 - Spring Security JDBC - Coding - Run SQL Script
+	371 - Spring Security JDBC - Coding - Update Maven POM File
+	372 - Spring Security JDBC - Coding - Add JDBC Properties File
+	373 - Spring Security JDBC - Coding - Define DataSource
+	374 - Spring Security JDBC - Coding - Reading Props File
+	375 - Spring Security JDBC - Coding - Configure Data Source
+	376 - Spring Security JDBC - Coding - Add JDBC Authentication
+	377 - Spring Security JDBC - Coding - Test the App
+	378 - Spring Security - Password Encryption - Bcrypt Overview
+	379 - Spring Security - Password Encryption - Spring Configuration
+	380 - Spring Security - Password Encryption - Setting up Database Schema
+	381 - Spring Security - Password Encryption - Bcrypt Configuration
+	382 - Spring Security - Password Encryption - Testing Passwords
+	
+IX. REST
+	383 - Spring REST - What are REST Web Services - Part 1
+	384 - Spring REST - What are REST Web Services - Part 2
+	385 - Spring REST - JSON Overview
+	386 - Spring REST - JSON Data Binding with Jackson - Overview 1
+	387 - Spring REST - JSON Data Binding with Jackson - Overview 2
+	388 - Spring REST - JSON Jackson Demo - Set Up Maven Project
+	389 - Spring REST - JSON Jackson Demo - Processing JSON
+	390 - Spring REST - JSON Jackson Demo - Nested Objects and Arrays
+	391 - Spring REST - JSON Jackson Demo - Display Nested and Arrays
+	392 - Spring REST - JSON Jackson Demo - Ignore Properties
+	393 - Spring REST - HTTP Overview
+	394 - Spring REST - Install a REST Client
+	395 - Spring REST - Creating a Spring REST Controller - Overview 1
+	396 - Spring REST - Creating a Spring REST Controller - Overview 2
+	397 - Spring REST - REST Controller Demo - Set Up Maven Project
+	398 - Spring REST - REST Controller Demo - Set Up All Java Configuration
+	399 - Spring REST - REST Controller Demo - Creating the REST Controller
+	400 - Spring REST - App Enhancement with Default Page
+	401 - Spring REST - Retrieve POJOs as JSON - Overview
+	402 - Spring REST - Retrieve POJOs as JSON - Create POJO
+	403 - Spring REST - Retrieve POJOs as JSON - Create REST Controller
+	404 - Spring REST - Retrieve POJOs as JSON - Test REST Controller
+	405 - Spring REST - Using @PathVariable for REST Endpoints - Overview
+	406 - Spring REST - Using @PathVariable for REST Endpoints - Refactoring Code
+	407 - Spring REST – Using
+	408 - Spring REST - Exception Handling Overview - Part 1
+	409 - Spring REST - Exception Handling Overview - Part 2
+	410 - Spring REST - Exception Handling - Create Custom Error Response and Exception
+	411 - Spring REST - Exception Handling - Update REST Service to throw Exception
+	412 - Spring REST - Exception Handling - Add Exception Handler with @ExceptionHandler
+	413 - Spring REST - Exception Handling - Test the App
+	414 - Spring REST - Exception Handling - Adding Generic Exception Handler
+	415 - Spring REST - Global Exception Handling Overview
+	416 - Spring REST - Global Exception Handling with @ControllerAdvice
+	417 - Spring REST - API Design Best Practices
+	418 - Spring REST API Design of Real-Time Projects (PayPal, Github and SalesForce)
+	419 - Spring REST - CRUD Database Real-Time Project - Overview
+	420 - Spring REST - Import Maven Project
+	421 - Spring REST - Maven POM file and All Java Config (no xml)
+	422 - Spring REST - Project Service and DAO
+	423 - Spring REST - Create Database Tables
+	424 - Spring REST - CRUD Database Real-Time Project - Get Customers Overview
+	425 - Spring REST - CRUD Database Real-Time Project - Create REST Controller
+	426 - Spring REST - CRUD Database Real-Time Project – Testing in Postman
+	427 - Spring REST - CRUD Database Real-Time Project - Get Single Customer Overview
+	428 - Spring REST - CRUD Database Real-Time Project - Get Single Customer - Testing
+	429 - Spring REST - CRUD Database Real-Time Project - Exception Handling - Responses
+	430 - Spring REST - CRUD Database Real-Time Project - Exception Handling - Refactor
+	431 - Spring REST - CRUD Database Real-Time Project - Exception Handling - Annotation
+	432 - Spring REST - CRUD Database Real-Time Project - Exception Handling - Catch All
+	433 - Spring REST - CRUD Database Real-Time Project - Add Customer - Overview
+	434 - Spring REST - CRUD Database Real-Time Project - Add Customer - Coding
+	435 - Spring REST - CRUD Database Real-Time Project - Add Customer - Testing
+	436 - Spring REST - CRUD Database Real-Time Project - Update Customer - Overview
+	437 - Spring REST - CRUD Database Real-Time Project - Update Customer - Coding
+	438 - Spring REST - CRUD Database Real-Time Project - Delete Customer - Overview
+	439 - Spring REST - CRUD Database Real-Time Project - Delete Customer - Coding
+	440 - Spring REST - CRUD Database Real-Time Project - Delete Customer - Testing
+	
+X. BOOT
+	441 - Spring Boot - What is Spring Boot
+	442 - Spring Boot - Creating a Project with Spring Boot Initializr
+	443 - Spring Boot - Developing a REST API Controller with Spring Boot
+	444 - Spring Boot - Exploring the Spring Boot Project Structure - Part 1
+	445 - Spring Boot - Exploring the Spring Boot Project Structure - Part 2
+	446 - Spring Boot - Spring Boot Starters - A Curated List of Dependencies
+	447 - Spring Boot - Parents for Spring Boot Starters
+	448 - Spring Boot - Dev Tools
+	449 - Spring Boot - Spring Boot Actuator - Overview
+	450 - Spring Boot - Spring Boot Actuator - Accessing Actuator Endpoints
+	451 - Spring Boot - Spring Boot Actuator - Applying Security to Actuator Endpoints
+	452 - Spring Boot - Running Spring Boot Apps from the Command Line - Overview
+	453 - Spring Boot - Running Spring Boot Apps from the Command Line - Coding
+	454 - Spring Boot - Injecting Custom Application Properties
+	455 - Spring Boot - Configuring the Spring Boot Server
+	456 - Spring Boot - REST CRUD Real-Time Project Overview and Database Set Up
+	457 - Spring Boot - Create Project with Spring Initializr
+	458 - Spring Boot - Integrating Hibernate and JPA
+	459 - Spring Boot - Configuring the Spring Boot Data Source
+	460 - Spring Boot - Developing the DAO Interface and Implementation
+	461 - Spring Boot - Creating REST Controller Methods
+	462 - Spring Boot - Additional CRUD Methods for DAO
+	463 - Spring Boot - Refactoring the Code to use a Service Layer
+	464 - Spring Boot - REST Controller Methods to Find and Add Employee
+	465 - Spring Boot - REST Controller
+	466 - Spring Boot - REST JPA Overview
+	467 - Spring Boot - Creating JPA DAO Implementation for REST API
+	468 - Spring Boot - Testing the REST API with JPA DAO Implementation
+	469 - Spring Boot - Spring Data JPA Overview
+	470 - Spring Boot - Creating Spring Data JPA Repository
+	471 - Spring Boot - Testing the REST API with Spring Data JPA Repository
+	472 - Spring Boot - Spring Data REST Overview
+	473 - Spring Boot - Spring Data REST - Creating a REST API
+	474 - Spring Boot - Spring Data REST - Configuration, Pagination and Sorting
+	
+XI. THYMELEAF
+	475 - Spring Boot - Thymeleaf Overview
+	476 - Spring Boot - Thymeleaf Helloworld - Create a Thymeleaf App
+	477 - Spring Boot - Thymeleaf Helloworld - Apply CSS Stylesheets
+	478 - Spring Boot - Thymeleaf - Build HTML Tables - Overview
+	479 - Spring Boot - Thymeleaf - Build HTML Tables - Write Some Code
+	480 - Spring Boot - Thymeleaf - Add Bootstrap CSS
+	481 - Spring Boot - Thymeleaf - CRUD Database Project - Get Employees - Part 1
+	482 - Spring Boot - Thymeleaf - CRUD Database Project - Get Employees - Part 2
+	483 - Spring Boot - Thymeleaf - CRUD Database Real-Time Project Add Employee - Part 1
+	484 - Spring Boot - Thymeleaf - CRUD Database Real-Time Project Add Employee - Part 2
+	485 - Spring Boot - Thymeleaf - CRUD Database Real-Time Project Add Employee - Part 3
+	486 - Spring Boot - Thymeleaf - CRUD Database Real-Time Project Update Employee - 1
+	487 - Spring Boot - Thymeleaf - CRUD Database Real-Time Project Update Employee - 2
+	488 - Spring Boot -Thymeleaf - CRUD Database Real-Time Project Delete Employee
